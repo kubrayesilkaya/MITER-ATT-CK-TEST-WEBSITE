@@ -1,0 +1,157 @@
+﻿
+#leftArea {
+    border-radius: 10px 25px 10px 25px;
+    margin-left: -200px;
+    padding: 25px;
+    float: left;
+    height: 300px;
+    width: 500px;
+}
+
+#leftArea1 {
+    border-radius: 10px 25px 10px 25px;
+    margin-left: 100px;
+    padding: 10px 10px 10px 10px;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+
+
+#leftArea2 {
+    margin-left: 200px;
+    margin-right: 350px;
+    padding: 0;
+    float: left;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+}
+
+.sola-kaydir {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+p {
+    color: chartreuse;
+    font-style: italic;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(248,248,255,0.5);
+}
+
+    ul li {
+        float: left;
+    }
+
+#navBar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    #navBar li a:hover {
+        background-color: lightslategray;
+    }
+
+.slide-container {
+    width: 700px;
+    height: 400px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 2100px;
+    background-color: pink;
+    height: 400px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+
+.slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#slide-1:target ~ .image-container {
+    left: 0px;
+}
+
+#slide-2:target ~ .image-container {
+    left: -700px;
+}
+
+#slide-3:target ~ .image-container {
+    left: -1400px;
+}
+
+.buttons {
+    position: relative;
+    top: -20px;
+}
+
+    .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: orangered;
+    }
+
+.lower {
+    color: black;
+}
+#Type{
+    margin-left:-180px;
+    height:10px;
+}
+#Contactform {
+    width: 50%;
+    height: 10%;
+    margin: 5% 30% 0 30%;
+    color: white;
+}
+
+    #Contactform div table {
+        padding: 7px;
+        background-color: rgba(43, 148, 203, 0.50);
+        width: 120%;
+        height: 200%;
+        table-layout: fixed;
+        text-align: left;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    #Contactform td:nth-child(odd) {
+        text-align: right;
+    }
+
+    #Contactform td:nth-child(even) {
+        text-align: left;
+    }
+   
+#mytable {
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}

@@ -1,0 +1,85 @@
+﻿h1 {
+    margin-top: -300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(248,248,255,0.5);
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: lightslategray;
+        }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+ProfileForm {
+    margin: 5% 0 0 0;
+}
+
+#ProfileForm div table {
+    padding: 55px;
+    background-color: rgba(248,248,255,0.5);
+    width: 600px;
+    height: 150px;
+    table-layout: fixed;
+    text-align: left;
+    border: hidden;
+    border-radius: 25px;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+#ProfileForm td:nth-child(odd) {
+    text-align: left;
+}
+
+#ProfileForm td:nth-child(even) {
+    text-align: left;
+}
+
+#ProfileForm td[colspan="2"] {
+    text-align: left;
+}
+
+#btnSave {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    padding: 7px 165px;
+    border-radius: 12px;
+}
+
+    #btnSave:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
